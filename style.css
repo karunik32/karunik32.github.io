@@ -396,6 +396,10 @@ span {
     line-height: 22px;
 }
 
+::selection {
+    color: var(--main-color);
+}
+
 ::-webkit-scrollbar {
     width: 15px;
 }

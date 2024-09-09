@@ -397,7 +397,8 @@ span {
 }
 
 ::selection {
-    color: var(--main-color);
+    color: var(--bg-color);
+    background: var(--main-color);
 }
 
 ::-webkit-scrollbar {
@@ -519,16 +520,16 @@ span {
     display: flex;
     flex-direction: column;
     text-align: left;
-    max-height: 200px;
+    /*max-height: 200px;*/
     justify-content: left;
     align-items: baseline;
-    padding: 5rem 5rem;
+    padding: 2rem 2rem;
 }
 
 .service-info h4 {
     font-size: 3rem;
     font-weight: 800;
-    line-height: 2;
+    line-height: 1.3;
 }
 
 .service-info p {

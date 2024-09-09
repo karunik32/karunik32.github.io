@@ -54,7 +54,6 @@ function autoSlide() {
 setInterval(autoSlide, 3000);
 */
 
-console.log("Hello Samrat Happy Hacking!");
 let menuIcon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
 let sections = document.querySelectorAll("section");

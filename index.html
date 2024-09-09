@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev's Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
 </head>
 
 <body>
@@ -20,8 +19,8 @@
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#education">Education</a>
+			<a href="#services">Services</a>
             <a href="#projects">Projects</a>
-            <a href="#services">Services</a>
             <!-- <a href="#testimonials">Testimonials</a> -->
             <a href="#contact">Contact</a>
         </nav>
@@ -141,47 +140,13 @@
 
     </section>
 
-    <section id="projects">
-        <div class="projects-box">
-            <h2 class="heading">Projects</h2>
-            <div class="carousel-slider">
-                <ul class="list">
-                    <li class="item project_1">
-                        <div class="content ">
-                            <h2 class="title">Games in C</h2>
-                            <p class="description">Here are some games developed using the c lanuage.</p>
-                            <a href="#" class="btn see_more_btn">See More</a>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <div class="content ">
-                            <h2 class="title">Another Project</h2>
-                            <p class="description">Here are the tables at the program</p>
-                            <a href="#" class="btn see_more_btn">See More</a>
-                        </div>
-                    </li>
-                    <li class="item">
-                        <div class="content">Item 3</div>
-                    </li>
-
-                </ul>
-                <!-- Slide indicator -->
-                <div class="slide-indicator">
-                    <span id="current-slide">1</span> of <span id="total-slides"></span>
-                </div>
-                <button onclick="handleClick('previous')" class="button button--previous" type="button">➜</button>
-                <button onclick="handleClick('next')" class="button button--next" type="button">➜</button>
-            </div>
-        </div>
-    </section>
-
     <section class="services" id="services">
         <h2 class="heading">Services</h2>
 
         <div class="services-container">
             <div class="services-box">
                 <div class="service-info">
-                    <h4>UI Design</h4>
+                    <h4>UI/UX Design</h4>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate blanditiis doloremque nisi
                         soluta ipsum asperiores pariatur alias laboriosam consequatur odit explicabo minima aspernatur
                         placeat, quasi, inventore dolores aliquid reiciendis natus! Corporis consectetur quaerat autem
@@ -226,6 +191,40 @@
         </div>
 
 
+    </section>
+
+	<section id="projects">
+        <div class="projects-box">
+            <h2 class="heading">Projects</h2>
+            <div class="carousel-slider">
+                <ul class="list">
+                    <li class="item project_1">
+                        <div class="content ">
+                            <h2 class="title">Games in C</h2>
+                            <p class="description">Here are some games developed using the c lanuage.</p>
+                            <a href="#" class="btn see_more_btn">See More</a>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="content ">
+                            <h2 class="title">Another Project</h2>
+                            <p class="description">Here are the tables at the program</p>
+                            <a href="#" class="btn see_more_btn">See More</a>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="content">Item 3</div>
+                    </li>
+
+                </ul>
+                <!-- Slide indicator -->
+                <div class="slide-indicator">
+                    <span id="current-slide">1</span> of <span id="total-slides"></span>
+                </div>
+                <button onclick="handleClick('previous')" class="button button--previous" type="button">➜</button>
+                <button onclick="handleClick('next')" class="button button--next" type="button">➜</button>
+            </div>
+        </div>
     </section>
 
     <section id="testimonials" class="testimonials" style="display: none;">
@@ -337,7 +336,6 @@
 
 
     <script src="script.js"></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 
 </html>

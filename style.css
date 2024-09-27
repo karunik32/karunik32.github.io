@@ -526,6 +526,10 @@ span {
     padding: 2rem 2rem;
 }
 
+.service-info ul {
+    padding: 2rem 3rem;
+}
+
 .service-info h4 {
     font-size: 3rem;
     font-weight: 800;
@@ -533,8 +537,8 @@ span {
 }
 
 .service-info p {
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 700;
     max-height: 100px;
     line-height: 1.5;
     margin: auto;
